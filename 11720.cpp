@@ -13,7 +13,7 @@ int main(void)
     
     for(int i=0; i<num; i++)
     {
-        arr_int[i] = arr[i] - 48;
+        arr_int[i] = arr[i] - 48;   //or use atoi()
         sum += arr_int[i];
     }
     
